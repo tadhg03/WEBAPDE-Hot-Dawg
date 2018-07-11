@@ -1,15 +1,20 @@
 .header{
     background-color: #5ba5ef;
     height: 50px;
+    border-radius: 5px;
 }
 
 .header a{
     float: left;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 16px;
     font-size: 18px;
     font-family: Tahoma;
+}
+
+#logout{
+    float: right;
 }
 
 .header a:hover{
@@ -18,10 +23,44 @@
 }
 
 .header input[type=text]{
-    float: right;
+    float: left;
     padding: 4px 4px;
     border: none;
     margin-top: 12px;
     margin-right: 16px;
     font-size: 18px;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: ;
+}
+
+.titleName{
+    width: 500px;
+    height: 30px;
+    margin: 0% 35%;
+    margin-top: 1%;
+    border-radius: 5px;
+    border-style: groove;
+    font-family: Tahoma;
+}
+
+.contentpost{
+    width: 500px;
+    height: 100px;
+    margin: 0% 35%;
+    border-radius: 5px;
+    border-style: groove;
+    font-family: Tahoma
+}
+
+.publishPost{
+    width: 70px;
+    height: 25px;
+    background-color: #5ba5ef;
+    color: white;
+    font-family: Tahoma;
+    margin: 0% 67%;
+    border-radius: 5px;
 }
