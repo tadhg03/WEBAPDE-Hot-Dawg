@@ -1,0 +1,27 @@
+.header{
+    background-color: #5ba5ef;
+    height: 50px;
+}
+
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+.header a:hover{
+    background-color: #6493c1;
+    color: white;
+}
+
+.header input[type=text]{
+    float: right;
+    padding: 4px 4px;
+    border: none;
+    margin-top: 12px;
+    margin-right: 16px;
+    font-size: 18px;
+}
