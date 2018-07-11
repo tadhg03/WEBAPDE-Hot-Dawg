@@ -43,6 +43,18 @@ body {
   border-top-right-radius: 0;
 }
 
+.logindiv{
+    margin: auto;
+}
+
+.signupdiv{
+    margin: auto;
+}
+
+.fixwidth{
+    width: 400px;
+}
+
 #signupbutton{
     background-color: transparent;
     border: none;
