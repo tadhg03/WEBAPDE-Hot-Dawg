@@ -1,0 +1,109 @@
+.header{
+    background-color: #5ba5ef;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+#logout{
+    float: right;
+}
+
+.header a:hover{
+    background-color: #6493c1;
+    color: white;
+}
+
+.header input[type=text]{
+    float: left;
+    padding: 4px 4px;
+    border: none;
+    margin-top: 12px;
+    margin-right: 16px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.border{
+    border-style: solid;    
+    border-radius: 10px;
+    border-width: thin;
+    border-color: grey;
+}
+
+#info{
+    display:flex;
+    flex-direction: row;
+    height: 75px;
+}
+
+#avatarDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#avatarImg{
+    height: 50px;
+    float: left;
+    border-radius: 20px;
+}
+
+.title{
+    font-size: 50;
+}
+
+.vote{
+    float:right;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.profile{
+    background: none;
+    border: none;
+    font-size: 15px;
+}
+
+.profile:hover{
+    cursor: pointer;
+    color: #5ba5ef;
+}
+
+.voteBtn{
+    background: none;
+    border: none;
+}
+
+.voteBtn:hover{
+    border: solid .5px;
+    border-color: #5ba5ef;
+}
+
+.voteImg{
+    height: 20px;
+}
+
+#content{
+    height: 500px;
+}
+
+.font{
+    font-family: Tahoma;
+}
+
+#comments{
+    height: 200px;
+}
