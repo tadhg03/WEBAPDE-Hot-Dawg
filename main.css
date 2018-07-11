@@ -158,14 +158,14 @@
 }
 
 .footer{
-    position: fixed;
+ //   position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 40px;
     background-color: #5ba5ef;
     border-radius: 5px;
-    padding: 4px 4px;
+    padding: 4px 5px;
 }
 
 #createPost{
