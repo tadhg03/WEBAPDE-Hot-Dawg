@@ -2,7 +2,9 @@
 
     <head>
         <title>Hot Dawg Forum</title>
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
 
     <body>
@@ -27,7 +29,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author1">Alex Reyes</a>
+                    <a href="#author1">AlexRotorReyes</a>
                 </div>
             </div>
             
@@ -45,7 +47,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author2">Tadhg McCarthy</a>
+                    <a href="#author2">TadhgMcCarthy</a>
                 </div>
             </div>
             
@@ -63,7 +65,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author3">Paolo Delos Reyes</a>
+                    <a href="#author3">PaoloDelosReyes</a>
                 </div>
             </div>
             
@@ -81,7 +83,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author2">Tadhg McCarthy</a>
+                    <a href="#author2">TadhgMcCarthy</a>
                 </div>
             </div>
             
@@ -99,7 +101,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author1">Alex Reyes</a>
+                    <a href="#author1">AlexRotorReyes</a>
                 </div>
             </div>
             
@@ -117,7 +119,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author3">Paolo Delos Reyes</a>
+                    <a href="#author3">PaoloDelosReyes</a>
                 </div>
             </div>
             
@@ -135,7 +137,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author1">Alex Reyes</a>
+                    <a href="#author1">AlexRotorReyes</a>
                 </div>
             </div>
             
@@ -153,7 +155,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author2">Tadhg McCarthy</a>
+                    <a href="#author2">TadhgMcCarthy</a>
                 </div>
             </div>
             
@@ -171,7 +173,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author2">Tadhg McCarthy</a>
+                    <a href="#author2">TadhgMcCarthy</a>
                 </div>
             </div>
             
@@ -189,7 +191,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author3">Paolo Delos Reyes</a>
+                    <a href="#author3">PaoloDelosReyes</a>
                 </div>
             </div>
             
@@ -207,7 +209,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author2">Tadhg McCarthy</a>
+                    <a href="#author2">TadhgMcCarthy</a>
                 </div>
             </div>
             
@@ -225,7 +227,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author1">Alex Reyes</a>
+                    <a href="#author1">AlexRotorReyes</a>
                 </div>
             </div>
             
@@ -243,7 +245,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author2">Tadhg McCartney</a>
+                    <a href="#author2">TadhgMcCartney</a>
                 </div>
             </div>
             
@@ -261,7 +263,7 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author3">Paolo Delos Reyes</a>
+                    <a href="#author3">PaoloDelosReyes</a>
                 </div>
             </div>
             
@@ -279,23 +281,34 @@
                         <span class="upvote"></span> 
                 </span>
                 <div class="author">
-                    <a href="#author1">Alex Reyes</a>
+                    <a href="#author1">AlexRotorReyes</a>
                 </div>
-            </div>
-<!--
-            <div class="post">
-                <input class="titleName" type="text" placeholder="Title"/>
-                <input class="contentpost" type="text" placeholder="Something interesting today..."/>
-                <button class="publishPost" type="submit">Publish</button>
-            </div>
--->
-        
+            </div>  
         </div>
         <div class="footer">
-            <button id="createPost" type="submit">Create Post</button>
+            <div class="w3-container">
+                <button onclick="document.getElementById('id01').style.display='block'" class="createButton">Create Post</button>
+                <div id="id01" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container">
+                            <div><input class="createTitle" type="text" placeholder="Title"/>
+                                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                            </div>
+                            <div>
+                                <input class="createBody" type="text" placeholder="What's happening today?"/>
+                                
+                            </div>
+                            <div>
+                                <button id="createPublish" onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-bottomright">Publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            <button class="createPost">Create Post</button>       -->
             <button id="backToTop" type="submit">Back To Top </button>
         </div>
         
     </body>
 
-</html>
+</html>     
