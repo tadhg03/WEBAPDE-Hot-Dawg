@@ -23,6 +23,7 @@
 }
 
 .header input[type=text]{
+    position: relative;
     float: left;
     padding: 4px 4px;
     border: none;
@@ -46,6 +47,7 @@
 }
 
 #avatarDiv{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,22 +55,41 @@
 }
 
 #avatarImg{
+    position: relative;
     height: 50px;
     float: left;
     border-radius: 20px;
+    margin-left: 10px;
 }
 
 .title{
-    font-size: 50;
+    font-size: 40;
 }
 
 .vote{
+    position: relative;
     float:right;
     margin-left: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+}
+
+.voteComment{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sharing{
+    position: relative;
+    margin-right: 5px;
+    padding: 5px;
+    border-right: .5px solid grey;
 }
 
 .profile{
@@ -97,8 +118,18 @@
     height: 20px;
 }
 
-#content{
-    height: 500px;
+.replyImg{
+    height: 15px;
+}
+
+.contentContainer{
+    height: auto;
+    padding: 5px;
+}
+
+.content{
+    margin-left: 10px;
+    word-wrap: break-word;
 }
 
 .font{
@@ -106,5 +137,45 @@
 }
 
 #comments{
-    height: 200px;
+    height: auto;
+    padding: 5px;
+}
+
+.inputComment{
+    position: relative;
+    font-family: Tahoma;
+    font-size: 12;
+    height: 75px;
+    width: 99%;
+    margin-left: 10px;
+}
+
+.CommentContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.commentProper{
+    position: relative;
+    font-family: Tahoma;
+    font-size: 16;
+    margin-left: 6px;
+}
+
+.replyContainer{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.replyContainer:hover{
+    cursor: pointer;
+    color: #5ba5ef;
+}
+
+.indent1{
+    position: relative;
+    margin-left: 60px;
 }
