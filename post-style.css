@@ -90,6 +90,7 @@
 .voteBtn:hover{
     border: solid .5px;
     border-color: #5ba5ef;
+    cursor: pointer;
 }
 
 .voteImg{
