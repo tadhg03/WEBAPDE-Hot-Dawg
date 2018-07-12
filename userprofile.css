@@ -241,7 +241,7 @@
 }
 
 .deletePart:hover{
-    background: red;
+    background: #db1e1e;
     cursor: pointer;
 }
 
@@ -326,7 +326,7 @@
 }
 
 .deleteComment:hover{
-    background: red;
+    background: #db1e1e;
     cursor: pointer;
 }
 
