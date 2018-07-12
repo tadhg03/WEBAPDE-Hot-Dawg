@@ -203,6 +203,8 @@
     width: 70px; 
     margin-top: 10px;
     margin-left: 6px;
+    display: flex;
+    flex-direction: row;
 }
 
 .replyContainer:hover{
@@ -289,10 +291,16 @@
     background-color: white; 
     color: black;
     border: none;
+    margin-right: 5px;
 }
 
 .btn:hover{
     background-color: #5ba5ef;
+    color: white;
+}
+
+.btnDel:hover{
+    background-color: red;
 }
 
 .modalTextInput{
