@@ -208,7 +208,40 @@
     height: 20px;
 }
 
+.editPart{
+    margin-left: 115px;
+    margin-top: -20px;
+    color: black;
+    font-family: Tahoma;
+    font-size: 14px;
+    position: relative;
+    width: 45px;
+    height: 20px;
+}
+
+.deletePart{
+    margin-left: 165px;
+    margin-top: -20px;
+    color: black;
+    font-family: Tahoma;
+    font-size: 14px;
+    position: relative;
+    width: 60px;
+    height: 20px;
+}
+
 .commentsPart:hover{
+    background: #5ba5ef;
+    cursor: pointer;
+}
+
+.editPart:hover{
+    background: #5ba5ef;
+    cursor: pointer;
+}
+
+.deletePart:hover{
+    background: red;
     cursor: pointer;
 }
 
@@ -241,8 +274,8 @@
 }
 
 .dateTime{
-    margin-left: 126px;
-    margin-top: 5px;
+    margin-left: 236px;
+    margin-top: 11px;
     font-family: Tahoma;
     font-size: 12px;
     position: relative;
@@ -269,9 +302,37 @@
     color: #515151;
 }
 
-.commentDate{
-    margin-top: 5px;
+.editComment{
+    margin-top: -17.8px;
     margin-left: 10px;
+    font-size: 14px;
+    font-style: Tahoma;
+    position: relative;
+    width: 42px;
+}
+
+.deleteComment{
+    margin-top: -16.8px;
+    margin-left: 60px;
+    font-size: 14px;
+    font-style: Tahoma;
+    position: relative;
+    width: 57px;
+}
+
+.editComment:hover{
+    background: #5ba5ef;
+    cursor: pointer;
+}
+
+.deleteComment:hover{
+    background: red;
+    cursor: pointer;
+}
+
+.commentDate{
+    margin-top: 4px;
+    margin-left: 120px;
     font-size: 14px;
     font-style: Tahoma;
     position: relative;
