@@ -2,6 +2,11 @@
     background: #efefef;
 }
 
+.commentNameClickable{
+    color: black;
+    text-decoration: none;
+}
+
 .headerLogo{
     width: 20x;
     height: 20px;
