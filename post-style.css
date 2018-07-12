@@ -1,7 +1,23 @@
+.background{
+    background: #efefef;
+}
+
+.headerLogo{
+    width: 20x;
+    height: 20px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
 .header{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    position: relative;
     background-color: #5ba5ef;
     height: 50px;
-    border-radius: 5px;
 }
 
 .header a{
@@ -23,17 +39,21 @@
 }
 
 .header input[type=text]{
-    position: relative;
     float: left;
     padding: 4px 4px;
     border: none;
     margin-top: 12px;
     margin-right: 16px;
+    margin-left: 292px;
     font-size: 18px;
     border-radius: 5px;
+    position: relative;
+    width: 500px;
+    
 }
 
 .border{
+    background: white;
     border-style: solid;    
     border-radius: 10px;
     border-width: thin;
@@ -142,6 +162,7 @@
 }
 
 .inputComment{
+    margin-top: 5px;
     position: relative;
     font-family: Tahoma;
     font-size: 12;
@@ -167,6 +188,7 @@
 
 .replyContainer{
     position: relative;
+    width: 70px; 
     margin-top: 10px;
     margin-left: 6px;
 }
