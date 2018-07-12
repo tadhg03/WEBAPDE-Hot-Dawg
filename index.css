@@ -1,9 +1,24 @@
-.header{
-    background-color: #5ba5ef;
-    height: 50px;
-    border-radius: 5px;  
+.background{
+    background: #efefef;
 }
 
+.headerLogo{
+    width: 20x;
+    height: 20px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.header{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    position: relative;
+    background-color: #5ba5ef;
+    height: 50px;
+}
 .header a{
     float: left;
     color: white;
@@ -28,16 +43,22 @@
     border: none;
     margin-top: 12px;
     margin-right: 16px;
+    margin-left: 292px;
     font-size: 18px;
     border-radius: 5px;
+    position: relative;
+    width: 500px;
+    
 }
 
 .container{
     margin-top: 5px;
-    background-color: white;
+    margin-right: 10px;
 }
 
 .userPost{
+    margin-top: 5px;
+    margin-left: 5px;
     border-style: groove;
     background: white;
     width: 100%;
@@ -164,7 +185,6 @@
     width: 100%;
     height: 40px;
     background-color: #5ba5ef;
-    border-radius: 5px;
     padding: 4px 5px;
 }
 
