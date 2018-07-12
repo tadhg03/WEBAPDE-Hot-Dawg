@@ -53,11 +53,11 @@
 }
 
 .border{
-    background: white;
-    border-style: solid;    
-    border-radius: 10px;
-    border-width: thin;
-    border-color: grey;
+    background: white !important;
+    border-style: solid !important;    
+    border-radius: 10px !important;
+    border-width: thin !important;
+    border-color: black !important;
 }
 
 #info{
