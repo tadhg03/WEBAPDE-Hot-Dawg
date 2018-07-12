@@ -155,6 +155,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+    margin-bottom: 20px; 
 }
 
 .commentProper{
@@ -178,4 +179,14 @@
 .indent1{
     position: relative;
     margin-left: 60px;
+}
+
+.indent2{
+    position: relative;
+    margin-left: 120px;
+}
+
+.indent3{
+    position relative;
+    margin-left:180px;
 }
