@@ -1,41 +1,69 @@
+.background{
+    /* Photo by Polina Raevskaya on Unsplash */
+    background-image: url("sitebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container{
-    width: 400px;
-    height: 370px;
+    width: 350;
+    height: auto;
     font-family: Tahoma;
     color: white;
-    background-color: #5ba5ef;
     border: solid;
-    border-color: black;
-    font-size: 25px;
+    border-color: #5ba5ef;
+    background-color: #1dc1d3;
+    opacity: 0.8;
+    font-size: 22px;
+    margin: auto;
+    margin-top: 200px;
+    position: relative;
+    border-radius: 50px;
+    
+    
 }
 
 li{
+    margin-left: 30px;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 2px;
 }
 
 .last{
     margin-bottom: 20px;
+    position: relative;
 }
 
 p{
     margin: 2px;
     padding: 2px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    position: relative;
 }
 
 .title{
     text-align: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 30px;
+    margin-left: 10px;
+    position: relative;
 }
 
 a{
     color: white;
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 ul{
