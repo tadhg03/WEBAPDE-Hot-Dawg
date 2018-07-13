@@ -41,6 +41,7 @@
 .header a:hover{
     background-color: #6493c1;
     color: white;
+    height: 50px;
 }
 
 .header input[type=text]{
